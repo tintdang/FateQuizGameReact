@@ -1,27 +1,33 @@
-# React + TypeScript + Vite
+# Fate Character Personality Quiz
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## An application that is based of the series Fate that includes a survey for the user to answer. The answers are compared with a list of characters and returns the character that has the closest compatibility score with the user! This is a remake of the old project [Fate Quiz Project](https://github.com/tintdang/characterQuiz) but using React with just github pages! This is is all just client side rendering and processing
 
-Currently, two official plugins are available:
+## How to start
+<!-- Click [here](https://tiny-blue-crow-yoke.cyclic.app) to visit deployed site. -->
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+You will be directed to the home page. Click on the go to survey button to start. 
 
-## Expanding the ESLint configuration
+There will be a input box to ask for the user's name and 10 questions to fill out. When you finish inputing all needed info in, press submit and a modal will pop up with your character!
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
+<!-- ## Contribution
+To develop this app on your machine, clone this repo and install dependencies:
+```bash
+git clone https://github.com/tintdang/characterQuiz.git
+cd characterQuiz
+npm install
 ```
+Make your changes and push to a new branch:
+```bash
+git checkout -b <your new branch>
+git add <your modified files>
+git commit -m "Your message here"
+git push origin <your new branch>
+``` -->
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+
+<!-- ### Dependencies
+1. [Express](https://expressjs.com/)
+2. [Body Parser](https://www.npmjs.com/package/body-parser) -->
+<!-- 
+## Bugs/Issues
+If you encounter any bugs or have any ideas for future development, submit an issue on GitHub [here](https://github.com/tintdang/characterQuiz/issues). -->
