@@ -1,4 +1,7 @@
+import { useNavigate } from "react-router-dom"
+
 export const Home = () => {
+  const navigate = useNavigate();
     return (
         <div className='rounded overflow-hidden shadow-lg bg-white w-full'>
         <div className="x-6 y-9">
@@ -11,7 +14,7 @@ export const Home = () => {
         {/* <div className='box- h-25 w-20 p-4 border-4'>
   
         </div> */}
-        <button className='bg-blue-500' onClick={() => console.log("clicked")}>Button</button>
+        <button className='bg-blue-500' onClick={() => navigate("/survey")}>Start</button>
       </div>
     )
 }
