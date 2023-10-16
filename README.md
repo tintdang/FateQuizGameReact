@@ -25,9 +25,12 @@ git push origin <your new branch>
 ``` -->
 
 
-<!-- ### Dependencies
-1. [Express](https://expressjs.com/)
-2. [Body Parser](https://www.npmjs.com/package/body-parser) -->
+### Dependencies
+1. [React Router](https://reactrouter.com/)
+2. [Formik](https://formik.org/)
+
+<!-- 1. [Express](https://expressjs.com/) -->
+<!-- 2. [Body Parser](https://www.npmjs.com/package/body-parser) -->
 <!-- 
 ## Bugs/Issues
 If you encounter any bugs or have any ideas for future development, submit an issue on GitHub [here](https://github.com/tintdang/characterQuiz/issues). -->

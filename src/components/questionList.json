@@ -1,0 +1,44 @@
+{
+  "questionList": [
+    {
+      "name": "q1",
+      "text": "1). You find it hard trusting others"
+    },
+    {
+      "name": "q2",
+      "text": "2). You are loyal to your friends"
+    },
+    {
+      "name": "q3",
+      "text": "3). You like to speak out your mind"
+    },
+    {
+      "name": "q4",
+      "text": "4). You like to keep secrets"
+    },
+    {
+      "name": "q5",
+      "text": "5). You like to share your possessions with others"
+    },
+    {
+      "name": "q6",
+      "text": "5). You prefer to stick to your own ideals rather than listen to others"
+    },
+    {
+      "name": "q7",
+      "text": "7). You think of yourself as a very clean person"
+    },
+    {
+      "name": "q8",
+      "text": "8). You care about your looks"
+    },
+    {
+      "name": "q9",
+      "text": "9). People say it is easy to get along with you"
+    },
+    {
+      "name": "q10",
+      "text": "10). You rely on your own smarts than your own strength"
+    }
+  ]
+}
