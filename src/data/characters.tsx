@@ -8,7 +8,7 @@ type characterProps = {
 
 export const characters: Array<characterProps> = [{
     "name": "King Arthur",
-    "photo": "/assets/images/saber.jpeg",
+    "photo": "src/assets/images/saber.jpeg",
     "scores": [
         1,
         5,
@@ -25,7 +25,7 @@ export const characters: Array<characterProps> = [{
 },
 {
     "name": "Mordred",
-    "photo": "/assets/images/Mordred.png",
+    "photo": "src/assets/images/Mordred.png",
     "scores": [
         5,
         1,
@@ -42,7 +42,7 @@ export const characters: Array<characterProps> = [{
 },
 {
     "name": "Emiya Shirou",
-    "photo": "/assets/images/emiya.jpeg",
+    "photo": "src/assets/images/emiya.jpeg",
     "scores": [
         1,
         2,
@@ -59,7 +59,7 @@ export const characters: Array<characterProps> = [{
 },
 {
     "name": "Gilgamesh",
-    "photo": "/assets/images/gil.jpg",
+    "photo": "src/assets/images/gil.jpg",
     "scores": [
         5,
         5,
@@ -76,7 +76,7 @@ export const characters: Array<characterProps> = [{
 },
 {
     "name": "Jeanne d'Arc",
-    "photo": "/assets/images/jeanne.jpeg",
+    "photo": "src/assets/images/jeanne.jpeg",
     "scores": [
         3,
         4,
@@ -93,7 +93,7 @@ export const characters: Array<characterProps> = [{
 },
 {
     "name": "Medusa",
-    "photo": "/assets/images/medusa.jpeg",
+    "photo": "src/assets/images/medusa.jpeg",
     "scores": [
         3,
         5,
@@ -110,7 +110,7 @@ export const characters: Array<characterProps> = [{
 },
 {
     "name": "Cu Chulainn",
-    "photo": "/assets/images/cu.jpeg",
+    "photo": "src/assets/images/cu.jpeg",
     "scores": [
         4,
         5,
@@ -127,7 +127,7 @@ export const characters: Array<characterProps> = [{
 },
 {
     "name": "Medea",
-    "photo": "/assets/images/medea.jpeg",
+    "photo": "src/assets/images/medea.jpeg",
     "scores": [
         4,
         1,
