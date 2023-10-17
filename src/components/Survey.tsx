@@ -25,6 +25,9 @@ export const Survey = () => {
         setLoading(true)
         
     }
+    const resetSurvey = () => {
+        setLoading(false)
+    }
     return (
         <div className="bg-blue-100 m-40 p-10">
             <h1 className="text-center">Survey</h1>
@@ -34,6 +37,7 @@ export const Survey = () => {
                 <img src={img} />
                 <h1>{name}</h1>
                 <p>{bioData}</p>
+                <button className="bg-blue-200" onClick={resetSurvey}>Restart</button>
             </div>
             : <Formik
                 initialValues={{ q1: "1", q2: "1", q3: "1", q4: "1", q5: "1", q6: "1", q7: "1", q8: "1", q9: "1", q10: "1" }}
