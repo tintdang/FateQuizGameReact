@@ -1,6 +1,11 @@
 import { Formik, Form } from "formik"
 import { Question } from "./Questions"
 import { questionList } from "./questionList.json"
+import { calculateCharacter } from "../data/characterCalculator"
+
+const renderAnswer = (answers) => {
+    calculateCharacter(answers)
+}
 
 type questionProps = {
     name: string,
@@ -14,14 +19,14 @@ export const Survey = () => {
             <Formik
                 initialValues={{ q1: "1", q2: "1", q3: "1", q4: "1", q5: "1", q6: "1", q7: "1", q8: "1", q9: "1", q10: "1" }}
                 onSubmit={async (values) => {
-                    console.log('The Results are', JSON.stringify(values, null, 2))
+                    renderAnswer(values)
                 }}
             >
                 <Form>
                     {questionList.map((question: questionProps, index) => {
                         return <Question key={index} questionName={question.name} questionText={question.text} />
                     })}
-                    <button className="bg-blue-200" type="submit">Submit</button>
+                    <button className="bg-blue-200 mx-auto" type="submit">Submit</button>
                 </Form>
             </Formik>
         </div>
