@@ -16,7 +16,7 @@ export const Survey = () => {
     const [name, setName] = useState("name")
     const [bioData, setBioData] = useState("bio")
     const [img, setImg] = useState("src/assets/images/jeanne.jpeg")
-    const renderAnswer = (answers) => {
+    const renderAnswer = (answers: Array<string>) => {
         const selectedCharacter = calculateCharacter(answers)
         console.log(selectedCharacter)
         setName(selectedCharacter.name)
@@ -42,7 +42,8 @@ export const Survey = () => {
             : <Formik
                 initialValues={{ q1: "1", q2: "1", q3: "1", q4: "1", q5: "1", q6: "1", q7: "1", q8: "1", q9: "1", q10: "1" }}
                 onSubmit={async (values) => {
-                    renderAnswer(values)
+                    let answerList = Object.values(values)
+                    renderAnswer(answerList)
                 }}
             >
                 <Form>

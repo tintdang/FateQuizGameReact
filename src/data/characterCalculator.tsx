@@ -5,7 +5,7 @@ export const calculateCharacter = (answers: Array<string>) => {
     let characterScore: Array<number> = []
     let totalScore: Array<number> = []
 
-    const answerList: Array<string> = Object.values(answers)
+    const answerList = answers
     // console.log("characters", characters)
     // get list of character scores
     // console.log(Object.values(answers))
